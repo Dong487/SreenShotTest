@@ -7,6 +7,9 @@
 
 // 螢幕截圖方法1
 // info 要使用者提供權限 Privacy - Photo Library Additions Usage Description
+//(功能) ScreenShot
+// 利用  UIGraphicsImageRenderer 截圖   然後
+// UIImageWriteToSavedPhotosAlbum 存到相簿內
 
 import SwiftUI
 
@@ -31,7 +34,7 @@ struct ContentView: View {
         
         VStack{
             textView
-                .background(.gray)
+                .background(.gray) // 顏色不會被拍到照片內
             
             imageView
             
